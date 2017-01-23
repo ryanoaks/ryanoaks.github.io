@@ -1,0 +1,77 @@
+/* For mobile phones: */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+div#header {
+    background-color: #ffd0d0;
+    height:5vh;
+}
+
+div#footer {
+    background-color: #d0ffd0;
+    height: 5vh;
+}
+
+
+
+div#left-nav {
+
+    text-align: center;
+}
+
+div#right-nav {
+    text-align: center;
+    order: 3;
+}
+
+
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #19c589;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+.nav{
+  width: 50%
+  float: left;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    div{
+      margin: 1px;
+      padding: 3px;
+    }
+
+    div#container{
+      display:flex;
+      flex-direction: row;
+    }
+
+    div#left-nav {
+        background-color: #ffffd0;
+    }
+
+    div#right-nav {
+        background-color: #d0ffff;
+    }
+
+    .nav{
+      display:block;
+    }
+
+
+
+}
